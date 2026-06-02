@@ -7,7 +7,7 @@ def index():
     if request.method == 'POST':
         text = request.form.get('text', '').strip()
         if text.lower() == 'hi':
-            message = 'Hello Dinesh'
+            message = 'Hello Dinesh Kumar'
         elif text:
             message = f'You entered: {text}'
         else:
